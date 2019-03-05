@@ -10,7 +10,7 @@ html {
     color: #111;
     padding: 24px 24px 0;
 }
-
+/*bij het selecteren van woorden in mozilla firefox en gewone browsers*/
 ::-moz-selection {
     background: #E85E00;
     color: white;
@@ -22,7 +22,7 @@ html {
     color: white;
     text-shadow: none;
 }
-
+/*hier geef je de image een alignment en maximale width*/
 img {
     max-width: 100%;
     vertical-align: top;
@@ -111,6 +111,7 @@ a {
     transition: all .1s ease-in-out;
 }
 
+/* bij het hoveren van links enz...*/
 a:hover,
 a:focus {
     color: Crimson;
@@ -123,7 +124,7 @@ a:active {
 
 
 
-
+/*dit is voor het aanpassen van de width als je de pagina verkleint*/
 @media (min-width: 576px) {
 
 }
