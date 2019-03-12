@@ -10,6 +10,14 @@ html {
     color: #111;
     padding: 24px 24px 0;
 }
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
 /*bij het selecteren van woorden in mozilla firefox en gewone browsers*/
 ::-moz-selection {
     background: #E85E00;
